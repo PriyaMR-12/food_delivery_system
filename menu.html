@@ -135,7 +135,7 @@ header .shopping span{
     border: none;
 }
 .listCard .count{
-    margin: 0 10px;
+    margin: 0 10px;
 }
 a{
     text-decoration: none;
@@ -144,7 +144,7 @@ a{
     </style>
 </head>
 <body class="">
-    
+
     <div class="container">
         <header>
             <h1>Your Food Menu</h1>
@@ -158,10 +158,10 @@ a{
         </header>
 
         <div class="list">
-          
+
         </div>
     </div>
-  
+
     <div class="card">
         <h1>Card</h1>
         <ul class="listCard">
@@ -209,13 +209,13 @@ let products = [
     {
         id: 4,
         name: 'Gobi Manchurian',
-        image: 'images/Gobi.jpg',
+        image: 'images/gobi.png',
         price: 70
     },
     {
         id: 5,
         name: 'Veg Soup',
-        image: 'images/Soup.jpg',
+        image: 'images/Soup.png',
         price: 65
     },
 
@@ -243,14 +243,14 @@ let products = [
     {
         id: 9,
         name: 'Veg Kadai',
-        image: 'images/Kadai.jpg',
+        image: 'images/kadai.jpg',
         price: 100
     },
 
     {
         id: 10,
         name: 'Paneer koftha',
-        image: 'images/10.png',
+        image: 'images/kofta.webp',
         price: 100
     }
 
@@ -328,10 +328,9 @@ function changeQuantity(key, quantity){
         listCards[key].quantity = quantity;
         listCards[key].price = quantity * products[key].price;
     }
-    reloadCard();
+    reloadCard();
 }
 
     </script>
 </body>
 </html>
-
